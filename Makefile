@@ -1,8 +1,8 @@
 .PHONY: all clean
 
 ACME ?= acme
-OUTPUT := build/v9_logo_grad.prg
-SOURCE := deepseek_asm_20251009_v9_logo_grad_scroller_embedded_fonts_vicfix_acme.s
+OUTPUT := build/deepseek_c64_v9_acme.prg
+SOURCE := deepseek_c64_v9_acme.s
 
 all: $(OUTPUT)
 
