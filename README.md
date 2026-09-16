@@ -1,4 +1,4 @@
-# DeepSeek C64 v9 ACME
+# C64 v9 ACME
 
 PAL C64 demo with dual charsets, centered logo text, gradient colors, raster
 bars, SID arpeggio, and a bottom scroller.
@@ -11,15 +11,15 @@ Requires ACME 0.97 or newer:
 make
 ```
 
-Output: `build/deepseek_c64_v9_acme.prg`. Run with:
+Output: `build/c64_logo_gradient_scroller_acme.prg`. Run with:
 
 ```sh
-x64sc -autostart build/deepseek_c64_v9_acme.prg
+x64sc -autostart build/c64_logo_gradient_scroller_acme.prg
 ```
 
 ## Repository layout
 
-- `deepseek_c64_v9_acme.s` — corrected ACME source.
+- `c64_logo_gradient_scroller_acme.s` — corrected ACME source.
 - `Makefile`, `AUDIT.md`, and `SHA256SUMS.txt` — build, audit, and integrity data.
 
 ## Audit summary

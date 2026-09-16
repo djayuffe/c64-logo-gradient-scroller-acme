@@ -1,13 +1,13 @@
 
-; deepseek_c64_v9_acme.s
+; c64_logo_gradient_scroller_acme.s
 ; PAL-safe, single-IRQ rasterbars + tiny SID arpeggio.
 ; Uses your embedded custom 1bpp hires charset at $2000 and prints:
 ;   "UBER CREW" (row 8) and "2025" (row 10) centered in white.
 ;
 ; Build:
-;   acme --strict-segments -f cbm -o deepseek_c64_v9_acme.prg deepseek_c64_v9_acme.s
+;   acme --strict-segments -f cbm -o c64_logo_gradient_scroller_acme.prg c64_logo_gradient_scroller_acme.s
 ; Run:
-;   x64sc -autostart deepseek_c64_v9_acme.prg
+;   x64sc -autostart c64_logo_gradient_scroller_acme.prg
 
 ; ---------------- BASIC stub: 10 SYS4608 ----------------
 * = $0801

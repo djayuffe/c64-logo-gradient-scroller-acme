@@ -1,8 +1,8 @@
 .PHONY: all clean
 
 ACME ?= acme
-OUTPUT := build/deepseek_c64_v9_acme.prg
-SOURCE := deepseek_c64_v9_acme.s
+OUTPUT := build/c64_logo_gradient_scroller_acme.prg
+SOURCE := c64_logo_gradient_scroller_acme.s
 
 all: $(OUTPUT)
 
