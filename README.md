@@ -1,5 +1,9 @@
 # C64 v9 ACME
 
+![C64 effect preview](docs/preview.png)
+
+Visual preview asset for this effect; run the VICE command below for an emulator capture.
+
 PAL C64 demo with dual charsets, centered logo text, gradient colors, raster
 bars, SID arpeggio, and a bottom scroller.
 
