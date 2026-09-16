@@ -27,3 +27,7 @@ x64sc -autostart build/c64_logo_gradient_scroller_acme.prg
 Missing external charset input and font/code overlap were removed. Charsets are
 placed at `$2000`/`$2800`, CIA IRQ sources are disabled during startup, and the
 centered text routine preserves row and color state.
+## Documentation and license
+
+Function-level documentation is in docs/FUNCTIONS.md. The project is released
+under GPL-3.0; see LICENSE.
