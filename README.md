@@ -1,4 +1,4 @@
-# C64 v9 ACME
+# C64 - Logo Gradient Scroller (ACME)
 
 ![C64 effect preview](docs/preview.png)
 
